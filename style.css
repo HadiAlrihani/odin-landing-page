@@ -1,13 +1,15 @@
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
-.header {
+.header, .hero {
     background-color: #1f2937;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0 200px 100px 200px;
 }
 
 .left {
@@ -15,13 +17,37 @@ body {
     color: #f9faf8;
 }
 
-ul, a {
+ul, a, .right {
     list-style-type: none;
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
     display: flex;
     flex-direction: row;
-    gap: 16px;
-    
+    gap: 16px;   
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
 }
